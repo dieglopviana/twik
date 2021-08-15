@@ -11,7 +11,7 @@
 ```
 git clone https://github.com/dieglopviana/twik.git 
 ```
-2. Inicie o container docker
+2. Crie a pasta "/docker/mysql/data" e inicie o container docker
 ```
 docker-compose up -d --build
 ```

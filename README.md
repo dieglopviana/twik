@@ -2,7 +2,7 @@
 
 <!-- SOBRE O TWIK -->
 
-[Screenshot da home](/src/app/webroot/img/Screenshot_home.png)
+![Screenshot_home](https://user-images.githubusercontent.com/456792/129486396-20c554b8-b11f-48e2-9338-59150c3f6c2c.png)
 
 
 ### Instalação

@@ -32,3 +32,5 @@ Login e senha dos usuários:
 Para acessar o painel administrador, logue com um usuário administrador e acesse o [painel administrador](http://localhost:8056/admin) e aí você já pode gerenciar os leilões, inserir lances para os usuários, alterar os produtos, etc...
 
 Para testar o Leilão, abra o Chrome e logue com um usuário, depois em uma aba anônima logue com outro usuário e em outro navegador acesse com o outro usuário, altere o Leilão para iniciar em determinado horário e espere o mesmo se iniciar. Vai iniciar um cronômetro com o tempo determinado na configuração do leilão e então, comece a dar lances. Assim que o cronômetro zerar, o último a dar lance, será o vencedor.
+
+[Vídeo demonstração](https://www.youtube.com/watch?v=EE93jp2V4Kw)

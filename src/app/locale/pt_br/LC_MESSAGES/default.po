@@ -1,0 +1,50 @@
+# Portuguese translation of CakePHP Application
+# Tradução dos selects, apenas deles
+
+#: /cake/libs/view/helpers/form.php:1660
+msgid "January"
+msgstr "Janeiro"
+
+#: /cake/libs/view/helpers/form.php:1661
+msgid "February"
+msgstr "Fevereiro"
+
+#: /cake/libs/view/helpers/form.php:1662
+msgid "March"
+msgstr "Março"
+
+#: /cake/libs/view/helpers/form.php:1663
+msgid "April"
+msgstr "Abril"
+
+#: /cake/libs/view/helpers/form.php:1664
+msgid "May"
+msgstr "Maio"
+
+#: /cake/libs/view/helpers/form.php:1665
+msgid "June"
+msgstr "Junho"
+
+#: /cake/libs/view/helpers/form.php:1666
+msgid "July"
+msgstr "Julho"
+
+#: /cake/libs/view/helpers/form.php:1667
+msgid "August"
+msgstr "Agosto"
+
+#: /cake/libs/view/helpers/form.php:1668
+msgid "September"
+msgstr "Setembro"
+
+#: /cake/libs/view/helpers/form.php:1669
+msgid "October"
+msgstr "Outubro"
+
+#: /cake/libs/view/helpers/form.php:1670
+msgid "November"
+msgstr "Novembro"
+
+#: /cake/libs/view/helpers/form.php:1671
+msgid "December"
+msgstr "Dezembro"

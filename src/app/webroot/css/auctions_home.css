@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frame_geral{ width: 310px; height: 198px; position: relative; float: left; }
+
+.frame_geral2{ width: 310px; height: 198px; position: relative; margin-left: 325px; }
+
+.quadro_auction { border: 1px solid #DFE0DE; width: 310px; height: 163px; }
+
+.image_auction{ width: 150px; height: 155px; margin: 3px 0 3px 3px; float: left; }
+
+.dados_auction{ margin: 3px 3px 3px 3px; width: 150px; height: 155px; position: absolute; left: 160px; }
+
+.titulo_auction{ margin: 15px 0px 3px 0px; height: 30px; font: 18px Arial; }
+
+.valor_mercado{ margin: 20px 0px 0px 0px; }
+
+.countdown{ margin: 5px 0px 0px 0px; width: 130px; height: 32px; }
+
+.time{ font: 28pt Arial; color:#339900; float: left; position: relative; }
+
+.txt_restantes{ display: block; font: 12pt Arial; color:#339900; margin-left: 45px; font-weight: bold; }
+
+.txt_arrematado{ font: 10pt Arial; color:#FC6500; position: relative; font-weight: bold; }
+
+.valor_arrematado{ display: block; font: 15pt Arial; color:#FC6500; font-weight: bold; }
+
+.lances{ background: url(../img/fdo_lances.jpg); width: 310px; height: 34px; border: 1px solid #DFE0DE; border-top: 0px; }
+
+.img_user_bid{ width: 30px; height: 34px; float: left; }
+
+.img_bid_user{ margin: 5px 0 5px 5px; }
+
+.last_bid{ width:122px; height:34px; margin: 0px; float:left; }
+
+.animate{ background-color:#FF0; width:117px; height:34px; margin: 0 0 0 5px; float:left; }
+
+.valor_last_bid{ font: 18px Arial; font-weight: bold; color: #333333; margin: 5px 5px 5px 10px; }
+
+.bt_lance{ width:158px; height:34px; margin: 0px; float:left;}
+
+
+/* CSS dos destaques */
+
+.quadro_auction_destaque { border: 1px solid #DFE0DE; width: 310px; height: 163px; }
+
+.frame_destaque_geral{ width: 310px; height: 164px; position: relative; float: left; }
+
+.frame_destaque_geral2{ width: 310px; height: 164px; position: relative; float: left; margin-left: 15px; }
+
+.frame_destaque_geral3{ width: 310px; height: 164px; position: relative; margin-left: 650px; }
+
+
+/* CSS do lado direito */
+
+h1{ margin:0; font:24px Arial; color:#333; letter-spacing:-1px; }
+
+#esquerda2{	width:305px; float:left; margin: 10px 0 0 0; }
+
+#arrematados{ padding: 10px 15px;	background:#f1f1ee;	color:#666; }
+
+#vencedores{ border-top:1px #FFF solid;	background:#e7e7e2;	padding:10px 15px; color:#666; height:113px; }
+
+#compre_lances{	border:#CCC 1px solid; margin:20px 0 ; padding:10px 15px; background:#f1f1ee; color:#666; }
+	
+.tamanho11{	font-size:11px; }
+	
+h2{	font-size:20px;	color:#333;	letter-spacing:-1px; background:#f1f1ee; }
+	
+.detalhes{ color:#F60; font-size:12px; }
+		
+.users{	margin:8px 1px;	float:left;	width:50px;	height:50px; position:relative; }

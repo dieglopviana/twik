@@ -1,0 +1,28 @@
+Abaixo segue a lista dos métodos existentes no helper, com os parâmetros 
+esperados e uma breve descrição.
+
+* data($data = null)
+  o Formata uma data timestamp no formato dd/mm/YYYY. Se não for informada a data, será utilizada a data atual
+
+* dataHora($dataHora = null, $segundos = true)
+  o Idem anterior, porém com a informação da hora junto.
+
+* dataCompleta($dataHora = null)
+  o Mostra a data completa. Exemplo: ‘terça-feira, 21 de abril de 2009, 10:00:00'.
+
+* precisao($numero, $casasDecimais = 3)
+  o Similar ao método precision do helper Time, mostrando os números no formato brasileiro.
+
+* porcentagem($numero, $casasDecimais = 2)
+  o Mostra o valor em porcentos, similar ao toPorcentage do TimeHelper.
+
+* moeda($valor, $opcoes = array())
+  o Mostra o valor em reais. Exemplo: R$ 10,20.
+    
+* moedaPorExtenso($numero)
+  o Escreve o valor por extenso, em reais.
+
+
+Exemplo de como usar o helper na view:
+
+echo $formatacao->Algum_dos_tipos_acima(parametros_aqui);

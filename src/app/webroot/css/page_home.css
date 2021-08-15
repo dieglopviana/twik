@@ -1,0 +1,629 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666666;
+	margin:0;
+	background:url(../img/bg.gif) repeat-x top;
+
+}
+
+#site{
+	width:1000 px;
+	padding: 0 20px;
+	margin:auto;
+	clear:both;
+	position: relative;
+}
+
+#rodape{
+	width:1000 px;
+	height:160px;
+	padding: 20px;
+	margin:auto;
+	background-color:#f1f1ee;
+	background:#f1f1ee;
+	clear:both;
+	position:relative;
+	font-size:12px;
+	color:#333;
+}
+
+.rodape {
+	width:465px;
+	margin:5px 0;
+}
+
+h1{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#333;
+	letter-spacing:-1px;
+}
+
+ul.margin_rodape{
+	margin:10px 0 0 0;
+	padding:0;
+	position:relative;
+	height:20px;
+}
+
+li.lista_rodape{
+	margin:0 10px 0 0;
+	list-style-type: none;
+	float:left;
+	
+}
+
+#creditos{
+	width:1000 px;
+	height:60px;
+	padding: 10px 20px;
+	margin:auto;
+	background:#e7e7e2;
+	clear:both;
+	position:relative;
+	font-size:12px;
+	color:#333;
+}
+
+
+a {
+	color: #333;
+	text-decoration:none;
+}
+a:hover {
+	color: #F60;
+	text-decoration:none;
+}
+
+#direita{
+	width:634px;
+	float:left;
+	position:relative;
+	margin:0 20px 0 0;
+	
+}
+
+#esqueda{
+	width:300px;
+	float:left;
+	position:relative;
+}
+
+#topo{
+	clear:both;
+	height:310px;
+	width: 963px;
+	background:url(../img/bg_produtos.gif) no-repeat top right;	
+}
+
+#coluna_um{
+	float:left;
+	position:relative;
+	
+}
+
+#anuncio{
+	font-size:28px;
+	color:#FFF;
+	letter-spacing:-2px;
+	padding:26px 0 54px 0;
+}
+
+#sessao{
+	font-size:24px;
+	color:#F60;
+	letter-spacing:-1px;
+	
+}
+
+#sessao a{ 
+	text-decoration: none; 
+	color:#F60; 
+}
+
+#coluna_dois{
+	float:left;
+	margin: 0px 0px 0px 30px;
+}
+
+#busca{
+	border:1px #999 solid;
+	margin:15px 0;
+	background:#FFF;
+	height:35px;
+	width:250px;
+	vertical-align:middle;
+	line-height:35px;
+}
+
+.busca {
+	border:0px solid #fff;
+	background: none;
+	font-size:14px;
+	color:#999;
+	height:30px;
+	line-height:30px;
+	vertical-align:top;
+	padding:0 4px;
+	width:205px;	
+}
+
+imput{
+	margin:0;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+#menu{
+	font-size:16px;
+	width:390px;
+	
+}
+
+#sobre_site{
+	margin:74px 0 0 30px;
+}
+
+#navegacao{
+	font-size:10px;
+	color:#666;
+	margin:65px 0 0 0;
+	text-align:right;
+	width:390px;
+}
+	
+
+#coluna_tres{
+	float:left;
+	margin:0 0 0 30px;
+}
+
+#canto_login_topo{	
+	margin: 16px 0px;
+	height: 93px;;
+}
+
+#login{
+	height:30px;
+	border: 0px solid #000;
+}
+
+.quadro_login{
+	border:1px #999 solid;
+	margin-right: 8px;
+	background:#FFF;
+	height:27px;
+	width:110px;
+	vertical-align:middle;
+	line-height:35px;
+	float: left;
+}
+
+.login{
+	border:0px solid #00F;
+	background: none;
+	font:12px Arial;	
+	color: #999;
+	height:20px;
+	padding: 5px 10px;
+	width:90px;
+	line-height:15px;
+}
+
+.login_ok{	
+	height:27px;
+	width:33px;
+	vertical-align:middle;
+	float: left;
+	margin-right: 5px;
+}
+
+.login_duvida{	
+	height: 17px;
+	width: 17px;
+	float: left;
+	margin-top: 5px;	
+}
+
+#div_cadastro{
+	margin: 15px 0;	
+}
+
+/* topo logado */
+#logado{
+	width: 300px; 
+	height: 70px; 
+	margin-top: 10px;	
+}
+
+#avatar_logado{
+	width: 70px; 
+	height: 70px; 
+	float:left;
+}
+
+#dados_logado{
+	margin: 0 0 0 80px; 
+	width: 215px; 
+	height: 70px;	
+}
+
+#ola_user{
+	font: 14pt Arial;
+	color: #333333;
+	width: 215px;
+	height: 25px;
+}
+
+#meus_lances{
+	width: 215px;
+	height: 40px;	
+}
+
+#img_lances_topo{
+	width: 40px; 
+	height: 40px; 
+	float: left;	
+}
+
+#txt_meus_lances{
+	width: 165px; 
+	height: 40px; 
+	margin: 0 0 0 50px;	
+}
+
+#txt_lances{
+	font: 10pt Arial; 
+	color: #676767; 
+	margin: 5px 0 0 0; 
+	line-height: 15px;	
+}
+
+a.compre_mais_lances{
+	font: 8pt Arial;
+	color: #F95100;	
+}
+/* fim topo logado */
+
+#data{
+	margin:175px 0 0 0;
+	text-align:right;
+	font-size:12px;
+	color:#333;
+}
+
+.relogio_data{ vertical-align: middle;}
+
+p.laranja{
+	font-size:18px;
+	color:#F60;
+	letter-spacing:-1px;
+	margin:2px 0;
+}
+
+p.branco{
+	margin:0;
+	color:#FFF;
+	letter-spacing:-1px;
+}
+
+
+/* Form */
+fieldset {
+	border: none;
+}
+
+fieldset legend {
+	font: bold 20pt Arial, Helvetica, sans-serif;
+	color: #555;
+	letter-spacing: -1px;
+	margin-bottom: 10px;
+	.margin-left: -6px;
+}
+
+fieldset label {
+	float: left;
+	display: inline;
+	width: 150px;
+	margin-right: 10px;
+}
+
+fieldset .text label {
+	float: left;
+	display: inline;
+	width: 150px;
+	margin-right: 10px;
+	padding-bottom: 8px;
+}
+
+fieldset .input {
+	clear: both;
+	padding: 4px 0 6px 0;
+	
+}
+
+fieldset .text input, fieldset .password input, fieldset .textarea textarea {
+	font: 11pt Arial;
+	font-weight: bold;
+	color: #666;
+	width: 50%;
+	padding: 2px;
+	border: 1px solid #dedede;
+}
+
+fieldset select{
+	font: 11pt Arial;
+	font-weight: bold;
+	color: #666;
+	width: auto;
+	padding: 2px;
+	border: 1px solid #dedede;
+}
+
+fieldset .checkbox {
+	float: none;
+	margin-left: 160px;
+}
+
+fieldset .checkbox label {
+	float: none;
+	padding-left: 4px;
+}
+
+div.submit {
+	margin: 10px 0;
+	float: left;
+}
+
+div.submit input {
+	background: #afafaf;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	padding: 4px;
+}
+
+.cancelar {
+	margin: 10px 0;
+	background: #afafaf;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	padding: 4px;
+}
+
+fieldset .text .error-message, fieldset .select .error-message, fieldset .textarea .error-message, 
+fieldset .checkbox .error-message, fieldset .password .error-message, .error-message {
+	font-size: 11px;
+	color: #e45b00;
+	margin-left: 160px;
+}
+
+fieldset .hint {
+	font-size: 11px;
+	color: #666;
+	margin-left: 160px;
+	_margin-left: 163px;
+	margin-bottom: 10px;
+}
+
+fieldset .showErrorMessage{
+	width: 610px;
+	height: 30px;	
+	color: #B00;
+	margin-bottom: 15px;
+}
+
+.txtErrorMessage{
+	font: 11pt Arial;
+	font-weight: bold;
+	margin: 0px 0px 0px 40px;	
+}
+
+
+/* USER_FOTOS/ADD e EDIT*/
+
+#quadro_upload{ width: 636px; }
+
+#avatar_g{ width: 150px; height: 150px; border: 2px solid #c1c0bc; float: left; }
+
+#form_upload{ width: 460px; height: 150px; margin: 0 0 0 174px; }
+
+#envie_sua_foto{ font: 15px Arial; }
+
+#btn_procurar{ margin: 5px 0;  border: 1px solid #fff; }
+
+#max_file_size{ font: 13px Arial; color: #cccbcb; }
+
+/* FIM USER_FOTOS/ADD E EDIT */
+
+
+/* CONTEÚDO DAS PAGES */
+
+#pages_content{ width: 630px; margin: 0; }
+
+#pages_content a{ color: #333; text-decoration: none; }
+
+#pages_content a:hover{ color:#F60; text-decoration: none; }
+
+/* FIM CONTEÚDO DAS PAGES */
+
+
+/* DETALHES DO LEILÃO */
+
+#auctions_view{ 
+	border-top: 3px solid #f1f2ed;
+	margin-top: -16px; 
+}
+
+#titulo_auction{
+	font: bold 22pt Arial, Helvetica, sans-serif;
+	color: #555;
+	letter-spacing: -1px;
+	margin-top: 15px;
+}
+
+#imagens_auctions{ width: 316px; height: 400px; float: left; }
+
+#image_max{ height: 295px; }
+
+#image_thumbs{ height: 100px; }
+
+ul.no-margin-padding, ul.no-margin-padding li {	margin: 0; padding: 0; }
+
+ul.no-margin-padding li { list-style: none; }
+
+#dados_auctions{ width: 318px; height: 400px; margin-left: 316px; }
+
+#dados_topo{ height: 75px; }
+
+#valor_mercado{ margin-left: 5px; font: 10pt Arial; font-weight: 600; color: #B1B1B1; }
+
+.inicio_auction{ margin: 5px 0px 0px 5px; }
+
+.quadro_time_view{ margin: 5px 0 0 5px; height: 45px; }
+
+#history_bids{ height: 320px; }
+
+#merchan{ margin-left: 5px; height: 50px; }
+
+#logo_patrocinador { width: 100px; height: 50px; float: left; }
+
+#txt_merchan{ height: 50px; margin-left: 105px; text-align:justify; }
+
+table.table_lance{ width: 310px; margin: 0px 5px 0px 5px; }
+
+table.history_bids{ border: 1px solid #dfdfdd; width: 100%; margin: 0px 5px 0px 0px; }
+
+table.history_bids td{ height: 35px; border-top: 1px solid #dfdfdd; }
+
+td.btn_inativo{ background: #ed5e00; width: 310px; height:35px; }
+
+td.btn_ativo{ background: #328809; width: 310px; height:35px; }
+
+a.btn_lance{ display: block; color:#FFF; font: 14pt Arial; font-weight: bold; height:25px; }
+
+tr.first_bid{ background: #f1f2ed; }
+
+td span.fisrt_bid{ font: 15pt Arial; }
+
+td.valor_bid{ width: 150px; }
+
+.valor_bid{ font: 11pt Arial; }
+
+td.imagem_user{ width: 30px; }
+
+td.username{ width: 130px; }
+
+.username{ margin-left: 5px; }
+
+.leilao_arrematado{ background:#999; }
+
+#aviso_arremate{ height: 70px; }
+
+#foto_winner { float: left; width: 50px; height: 50px; margin-left: 8px; }
+
+#txt_winner{ width: 230px; margin-left: 70px; color:#FFF; text-align: center; font: 13pt Arial; }
+
+.valor_arrematado_detalhe{ font: 18pt Arial; color:#FFF; }
+
+#valor_por_lance{ font: 8pt Arial; font-weight: 500; color: #B1B1B1; }
+
+#quadro_descricao { border-top: 3px solid #f1f2ed; margin-top: 60px; }
+
+#depoimento { border-top: 3px solid #f1f2ed; margin-top: 60px; }
+
+/* FIM DETALHES DO LEILÃO */
+
+
+/* ELEMENT RIGHT ARREMATADOS */
+
+#quadro_arrematado { margin-top: 15px; height: 155px; }
+
+#img_arrematado{ width: 150px; height: 150px; float: left; }
+
+#image_ganhador { width: 25px; height: 25px; float: left; }
+
+#arrematado{ font: 9pt Arial; color:#FC6500; position: relative; font-weight: bold; margin-top: 10px; }
+
+#titulo_arrematado{ font: 13pt Arial; font-weight: bold; }
+
+#ganhador{  margin-top: 10px; height: 25px; }
+
+#image_ganhador { width: 25px; height: 25px; float: left; }
+
+#username_ganhador { padding-top: 5px; font: 10pt Arial; font-weight: bold; margin-left: 30px; }
+
+/* FIM ELEMENT RIGHT ARREMATADOS */
+
+
+/* ELEMENT RIGHT ARREMATADOS */
+
+#nenhum_vencedor { text-align: center; font: 10pt Arial; font-weight: bold; margin-top: 15px; }
+
+/* FIM ELEMENT RIGHT ARREMATADOS */
+
+
+/* CSS PADRÃO DO CAKE PARA TABELAS COM UMA ADAPTAÇÃO*/
+/* Tables */
+table.cake {
+	background: #fff;
+	border:1px solid #ccc;
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+table.cake th {
+	background: #f2f2f2;
+	border:1px solid #bbb;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	text-align: center;
+}
+table.cake th a {
+	background:#f2f2f2;
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+table.cake th a:hover {
+	background: #ccc;
+	color: #333;
+	text-decoration: none;
+}
+table.cake tr td {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+}
+table.cake tr.altrow td {
+	background: #f4f4f4;
+}
+table.cake td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+table.cake td.actions a {
+	margin: 0px 6px;
+}
+table.cake .cake-sql-log table {
+	background: #f4f4f4;
+}
+table.cake .cake-sql-log td {
+	padding: 4px 8px;
+	text-align: left;
+}
+
+/* FIM DO CSS PADRÃO DO CAKE PARA TABELAS */

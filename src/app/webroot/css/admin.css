@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:Arial, Helvetica, sans-serif;	font-size:14px;	color:#666666; margin:0; background: url(/pc/twik/img/bg_admin.gif) repeat-x top; }
+#geral{ width:1000 px; padding: 0 20px; margin:auto; clear:both;	position:relative; }
+#topo{ clear:both; height:131px; width: 963px; background: none; }
+#logo{ float:left; position:relative; }
+#espaco_topo{ height: 80px; margin: 0 0 0 220px; }
+
+
+#menu{ 
+	height: 50px;
+	margin: 0 0 0 220px;
+}
+
+ul.menu{ 
+	margin:7px 0 0 0px; 
+	padding:0; 
+	position:relative;
+	width: auto;
+	height:30px;
+	padding: 0px;
+	/*border: 1px solid #000;*/
+}
+
+li.menu_admin{ 
+	margin: 0px 0px 0 30px; 
+	list-style-type: none; 
+	float:left;	
+	width: 75px;
+	height: 25px;
+	text-align: center;
+	border: 3px solid #eaeae5;
+}
+
+li.menu_admin:hover{
+	background: #fff;
+	border: 3px solid #f76300;
+	border-bottom: 3px solid #fff;
+}
+
+li.menu_admin2{ 
+	margin: 0; 
+	list-style-type: none; 
+	float:left; 
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	border: 3px solid #eaeae5;
+	border-bottom: none;
+}
+
+li.menu_admin2:hover{
+	background: #fff;
+	border: 3px solid #f76300;
+	border-bottom: 3px solid #fff;
+}
+
+li.menu_admin2:hover ul{
+	display: block;
+}
+
+li.menu_admin2 ul{
+	display: none;
+	width: 200px;
+	border: 3px solid #f76300;
+	border-top: 0px solid #FFF;
+	background: #FFF;
+	padding: 0px 0px 5px 0px;
+	margin: -5px 0px 0 -3px;
+	float: left;
+}
+
+li.menu_admin2 li.magic{
+	background: #FFF;
+	list-style: none;
+	border: 1px solid #fff;
+	padding-left: 5px;
+	text-align: left;
+	float: left;
+	width: 93px;
+	height: 10px;
+}
+
+li.menu_admin2 li.magic2{
+	background: #FFF;
+	list-style: none;
+	border-top: 3px solid #f76300;
+	padding-left: 5px;
+	text-align: left;
+	float: left;
+	width: 95px;
+	height: 10px;
+}
+
+li.menu_admin2 li.item_menu{
+	background: #FFF;
+	list-style: none;
+	padding-left: 5px;
+	text-align: left;
+	width: 193px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+li.menu_admin a{
+	display: block;
+	cursor: pointer;
+	height: 25px;
+	margin-top: 0px;
+	padding-top: 5px;
+	/*border: 1px solid #000;*/
+}
+
+li.menu_admin2 a{
+	display: block;
+	cursor: pointer;
+	height: 25px;
+	margin-top: 0px;
+	padding-top: 5px;
+	/*border: 1px solid #000;*/
+}
+
+li.menu_admin2 li a{
+	font: 12px Arial, Helvetica, sans-serif;
+	color : #978e81;
+	font-weight : bold;
+	padding-top: 3px;
+}
+
+li.menu_admin2 li a:hover{
+	color: #F60; 
+	text-decoration: none;
+}
+
+a{ color: #333;	text-decoration:none; font-weight: bold; }
+a:hover { color: #F60; text-decoration: none; }
+#content{ width: 963px; clear:both; margin: 10px 0; }
+
+
+
+/* CSS padrão do cake */
+
+/* Tables */
+table {
+	background: #fff;
+	border:1px solid #ccc;
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	background: #f2f2f2;
+	border:1px solid #bbb;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	text-align: center;
+}
+th a {
+	background:#f2f2f2;
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a:hover {
+	background: #ccc;
+	color: #333;
+	text-decoration: none;
+}
+table tr td {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+}
+table tr.altrow td {
+	background: #f4f4f4;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+td.actions a {
+	margin: 0px 6px;
+}
+
+
+/* Paging */
+div.paging {
+	background:#fff;
+	color: #ccc;
+	margin-bottom: 2em;
+}
+div.paging div.disabled {
+	color: #ddd;
+	display: inline;
+}
+div.paging span {
+}
+div.paging span.current {
+	color: #000;
+}
+div.paging span a {
+}
+
+/* Scaffold View */
+dl {
+	line-height: 2em;
+	margin: 0em 0em;
+	width: 60%;
+}
+dl.altrow {
+	background: #f4f4f4;	
+}
+dt {
+	font-weight: bold;
+	padding-left: 4px;
+	vertical-align: top;		
+}
+dd {
+	margin-left: 10em;
+	margin-top: -2em;
+	vertical-align: top;
+}
+
+
+/*  Actions  */
+div.actions ul {
+	margin: 15px 0;
+	padding: 0;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+}
+div.actions ul li a {
+	background:#fff;
+	color: #003d4c;
+	text-decoration: none;
+}
+div.actions ul li a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+

@@ -1,4 +1,4 @@
-## twik - Site de leilão desenvolvido com CakePHP(1.2.3) em 2008
+## twik - Site de leilão desenvolvido com CakePHP
 
 <!-- SOBRE O TWIK -->
 
